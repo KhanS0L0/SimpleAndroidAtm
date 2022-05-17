@@ -1,0 +1,12 @@
+[ {"currency" : "EUR",
+  "banknotes" : [5, 10, 20, 50, 100, 200, 500]},
+
+  { "currency" : "USD",
+    "banknotes" : [1, 5, 10, 20, 50, 100]},
+
+  { "currency" : "RUB",
+    "banknotes" : [50, 100, 200, 500, 1000, 5000]},
+
+  { "currency" : "WTF",
+    "banknotes" : [3, 5, 7, 13, 17, 23]}
+]

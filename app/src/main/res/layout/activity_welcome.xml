@@ -1,0 +1,139 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/choseCurrencyText"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:maxLength="20"
+        android:text="@string/selectCurrency"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine0"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        android:background="@color/grey"
+        android:gravity="start|top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <Button
+        android:id="@+id/EURO"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:text="@string/eur"
+        android:textColor="@color/dark_grey"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        android:onClick="euro"/>
+
+    <Button
+        android:id="@+id/USD"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:text="@string/usd"
+        android:textColor="@color/dark_grey"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        android:onClick="dollar"/>
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine1"
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        android:background="@color/grey"
+        android:gravity="start|top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="3dp"
+        android:layout_height="246dp"
+        android:background="@color/grey"
+        android:gravity="start|top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <Button
+        android:id="@+id/RUBLE"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:text="@string/rub"
+        android:textColor="@color/dark_grey"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        android:onClick="ruble"/>
+
+    <Button
+        android:id="@+id/WTF"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:text="@string/wtf"
+        android:textColor="@color/dark_grey"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827"
+        android:onClick="wtf"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
